@@ -1,0 +1,56 @@
+.container {
+  max-width: fit-content;
+  border: 1px solid black;
+  margin: auto;
+  border-radius: 2%;
+}
+
+.img-container {
+  /* max-width: fit-content; */
+  /* border: 1px solid black; */
+  padding: 2em;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+
+.pantai {
+  justify-content: center;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.button-container {
+  /* justify-content: center; */
+  /* margin-left: auto;
+  margin-right: auto;
+  align-items: center; */
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.button {
+  background-color: rgb(0, 81, 255);
+  border-radius: 10%;
+  border: 5px double black;
+  color: white;
+  font-size: 1.2em;
+  width: 7em;
+  height: 3em;
+  /* border: 1px black; */
+}
+
+.button:hover {
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
+}
