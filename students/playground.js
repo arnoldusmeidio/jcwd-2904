@@ -147,12 +147,22 @@
 // }
 
 // getUsers();
-const arr = ["act", "pots", "tops", "cat", "stop", "hat"];
+const arr = ["bdddddddddd", "bbbbbbbbbbc"];
 
+const ans = {};
 for (let s of arr) {
   const count = Array(26).fill(0);
   console.log(s);
   for (let c of s) {
-    console.log(c);
+    count[c.charCodeAt(0) - "a".charCodeAt(0)]++;
   }
+
+  const key = count.join("#");
+  console.log(key);
+  if (!ans[key]) {
+    ans[key] = [];
+  }
+
+  ans[key].push(s);
 }
+console.log(Object.values(ans));

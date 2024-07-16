@@ -1,0 +1,48 @@
+.container {
+  max-width: fit-content;
+  border: 1px solid black;
+  margin: 4em auto;
+  border-radius: 2%;
+  overflow: hidden;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  padding-bottom: 2em;
+}
+
+.img-container {
+  width: 50em;
+  margin: auto;
+}
+
+.container h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+}
+
+.pantai {
+  width: 100%;
+  object-fit: contain;
+}
+
+.button {
+  background-color: hotpink;
+  border-radius: 10%;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  width: 7em;
+  height: 3em;
+  font-family: Poppins;
+  margin-top: 0.8em;
+}
+
+.button:hover {
+  background-color: rgb(135, 194, 214);
+  cursor: pointer;
+}
+
+.button-container {
+  text-align: center;
+}
