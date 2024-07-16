@@ -132,18 +132,27 @@
 
 // console.log(018 - 015)
 
-//  Async await
-async function getUsers() {
-  try {
-    const response = await fetch(
-      "https://jsonplaceholder.typicode.com/users/1"
-    );
+// //  Async await
+// async function getUsers() {
+//   try {
+//     const response = await fetch(
+//       "https://jsonplaceholder.typicode.com/users/1"
+//     );
 
-    const data = await response.json();
-    console.log(data);
-  } catch (error) {
-    console.error(error);
+//     const data = await response.json();
+//     console.log(data);
+//   } catch (error) {
+//     console.error(error);
+//   }
+// }
+
+// getUsers();
+const arr = ["act", "pots", "tops", "cat", "stop", "hat"];
+
+for (let s of arr) {
+  const count = Array(26).fill(0);
+  console.log(s);
+  for (let c of s) {
+    console.log(c);
   }
 }
-
-getUsers();

@@ -3,23 +3,34 @@
   border: 1px solid black;
   margin: auto;
   border-radius: 2%;
+  overflow: hidden;
 }
 
 .img-container {
   /* max-width: fit-content; */
   /* border: 1px solid black; */
-  padding: 2em;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
+  /* padding: 2em; */
+  margin: auto;
+  /* overflow: auto; */
+  /* border-radius: 5%; */
 }
 
 .pantai {
   justify-content: center;
+  width: 100%;
+  /* border-radius: 2%; */
+  /* overflow: hidden; */
 }
 
-h1,
-p {
+.container h2,
+.container p {
   text-align: center;
+  font-family: Poppins;
+}
+
+.container h2 {
+  font-size: 3em;
+  font-weight: 800;
 }
 
 h1 {
@@ -42,15 +53,34 @@ p {
 .button {
   background-color: rgb(0, 81, 255);
   border-radius: 10%;
-  border: 5px double black;
+  border: none;
   color: white;
   font-size: 1.2em;
   width: 7em;
   height: 3em;
+  font-family: Poppins;
   /* border: 1px black; */
 }
 
 .button:hover {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(253, 146, 164);
   cursor: pointer;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.copyright {
+  font-size: 1em;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list::before {
 }

@@ -2,20 +2,167 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <figure class="img-container">
-        <img class="pantai" src="./beach.jpg" alt="gambar-pantai" />
-      </figure>
-      <h1>Beautiful!</h1>
-      <p>Modal with a custom image</p>
-      <div class="button-container">
-        <button class="button">Lovely</button>
+    <header class="header-section">
+      <h1>Logo</h1>
+      <ul class="list">
+        <li><a href="#">Home</a></li>
+        <li><a href="https://www.google.com/">Google</a></li>
+        <li><a href="https://www.amzon.com/">Amazon</a></li>
+        <li><a href="https://www.netflix.com/">Netflix</a></li>
+      </ul>
+    </header>
+
+    <main class="main-section">
+      <section class="hero-section">
+        <figure style="margin: 0">
+          <img style="width: 100%;"
+          src="https://images.unsplash.com/photo-1505533321630-975218a5f66f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D""
+          alt="Purple sky"/>
+          <figcaption>Blue sky with a hint of purple</figcaption>
+        </figure>
+      </section>
+
+      <section class="title-section">
+        <h2>Title</h2>
+        <time datetime="20-05-2024">20 May, 2024</time>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, deserunt
+          ut magni laboriosam ducimus, suscipit expedita veniam sapiente tempora
+          inventore quas perspiciatis aliquid quod modi aspernatur autem vitae,
+          accusamus ea?
+        </p>
+      </section>
+
+      <section class="title-section">
+        <h2>First Section</h2>
+        <p>
+          <b>Lorem ipsum dolor sit amet consectetur adipisicing elit</b>.
+          <i>Consequatur asperiores id porro iste voluptates fugit</i>, nesciunt
+          aliquam cumque voluptatibus illo, modi nihil natus ex architecto fuga
+          facilis minima, labore pariatur.
+        </p>
+      </section>
+
+      <section class="second-section">
+        <h2>Second Section</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          iusto doloremque labore eum?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          ratione, optio quam similique eaque eius molestias, praesentium
+          obcaecati tempora iste doloribus veritatis nam, odit laborum sint
+          omnis mollitia ad odio.
+        </p>
+      </section>
+
+      <section class="third-section">
+        <h2>Third Section</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit.</p>
+
+        <ol>
+          <li>Uno</li>
+          <li>Dos</li>
+          <li>Tres</li>
+        </ol>
+
+        <table>
+          <tr>
+            <th colspan="2">Header 1 & 2</th>
+            <th>Header 3</th>
+          </tr>
+          <tr>
+            <td rowspan="2">Row 1 & 2, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+          </tr>
+          <tr>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+          </tr>
+          <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="fourth-section">
+        <h2>Fourth Section</h2>
+        <form action="">
+          <fieldset>
+            <legend>Identity</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" />
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Feedback</legend>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message"></textarea>
+            <label for="rating">Give your rating:</label>
+            <select name="rating" id="rating">
+              <option value="1">1 Star</option>
+              <option value="2">2 Star</option>
+              <option value="3">3 Star</option>
+              <option value="4">4 Star</option>
+              <option value="5">5 Star</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Are you satisfied?</legend>
+            <label for="yes">Yes</label>
+            <input type="radio" name="radio" id="yes" />
+            <label for="no">No</label>
+            <input type="radio" name="radio" id="no" />
+          </fieldset>
+
+          <fieldset>
+            <legend>What we can improve?</legend>
+            <label for="topic">Topic</label>
+            <input type="checkbox" name="cb" id="topic" />
+            <label for="writing">Writing</label>
+            <input type="checkbox" name="cb" id="writing" />
+            <label for="design">Design</label>
+            <input type="checkbox" name="cb" id="design" />
+            <label for="image">Image</label>
+            <input type="checkbox" name="cb" id="image" />
+          </fieldset>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p class="copyright">&copy; 2024</p>
+      <div class="container">
+        <figure class="img-container">
+          <img class="pantai" src="./beach.jpg" alt="gambar-pantai" />
+        </figure>
+        <h2>Beautiful!</h2>
+        <p>Beautiful beach with clear water and white sand.</p>
+        <div class="button-container">
+          <button class="button">Lovely!</button>
+        </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
