@@ -8,7 +8,7 @@ var topKFrequent = function (nums, k) {
   const result = [];
   const sortArr = [];
 
-  for (el of nums) {
+  for (let el of nums) {
     if (!stats[el]) {
       stats[el] = 1;
     } else {
@@ -16,7 +16,7 @@ var topKFrequent = function (nums, k) {
     }
   }
 
-  for (val in stats) {
+  for (let val in stats) {
     sortArr.push([Number(val), stats[val]]);
   }
 
