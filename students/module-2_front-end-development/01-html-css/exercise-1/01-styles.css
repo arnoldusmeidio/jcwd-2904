@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.first-wrapper {
+  width: 1280px;
+  height: 382px;
+  border-bottom: 8px solid #999999;
+  position: relative;
+}
+
+.h1-wrapper {
+  position: relative;
+  top: 96px;
+  left: 264px;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 32px;
+  width: 180px;
+  height: 38px;
+  line-height: 38.4px;
+}
+
+.p-wrapper-1 {
+  width: 415px;
+  height: 60px;
+  position: absolute;
+  top: 182px;
+  left: 264px;
+  margin: 0px;
+}
+
+.p-wrapper-1 span {
+  font-weight: 800;
+  color: #009966;
+}
+
+.first-wrapper p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.p-wrapper-2 {
+  width: 415px;
+  height: 60px;
+  position: absolute;
+  top: 258px;
+  left: 264px;
+  margin: 0;
+}
+
+.second-wrapper {
+  width: 1280px;
+  height: 450px;
+  background-color: #666666;
+  position: relative;
+}
+
+.second-internal-wrapper {
+  position: relative;
+  left: 232px;
+  top: 72px;
+  width: 800px;
+  height: 312px;
+  background-color: #ffffff;
+  border-bottom: 8px solid #999999;
+}
+
+.text-wrapper {
+  width: 752px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  top: 92px;
+  left: 24px;
+}

@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(77, 91, 91);
+}
+
+body {
+  background-color: rgb(224, 241, 231);
+}

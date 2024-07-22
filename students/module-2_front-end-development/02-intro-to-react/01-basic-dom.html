@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Document</title>
+    <style>
+      .ini-heading-style {
+        font-size: 70px;
+        color: green;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <h1>Hello lagi</h1>
+    <div class="container">
+      <p class="lorem">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+        accusantium illum repudiandae ratione blanditiis libero ex eum eaque
+        harum eius quasi quos rerum ipsa, numquam recusandae sint, voluptatum
+        enim facilis?
+      </p>
+
+      <p class="lorem">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+        accusantium illum repudiandae ratione blanditiis voluptatum enim
+        facilis?
+      </p>
+    </div>
+
+    <button id="myBtn">Click Me!!</button>
+
+    <script>
+      // 1.  intro
+      // console.log("connected!");
+      const heading = document.getElementsByTagName("h1");
+      // heading[0].style.color = "red";
+      // heading[1].style.color = "magenta";
+
+      // 2,  Selection
+      /*
+      1. getElementById
+      2. getElementsByclassName
+      3. getElementsByTagName
+      4. getElementsByName
+      5. querrySelector
+      6. querrySelectorAll
+      */
+
+      const button = document.getElementById("myBtn");
+      button.style.color = "magenta";
+
+      // const paragraph = document.getElementsByClassName("lorem");
+      // paragraph[1].style.fontSize = "20px";
+
+      // const parWithQuery = document.querySelector("h1");
+      // parWithQuery.style.color = "red";
+
+      const parWithQueries = document.querySelector(
+        "div.container > p:nth-child(2)"
+      );
+      console.log(parWithQueries);
+      parWithQueries.style.color = "magenta";
+
+      // const parWithQueryAll = document.querySelectorAll(".lorem");
+      // console.log(parWithQueryAll);
+      // parWithQueryAll[1].style.color = "blue";
+
+      button.addEventListener("click", () => {
+        heading[1].classList.toggle("ini-heading-style");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+h1 {
+  font-size: 1.5em;
+}
+
+.float {
+  display: block;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.lineLabel {
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.radioInput {
+  margin-left: 20px;
+}
+
+.radioButton {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+  font-size: 0.8em;
+}
+
+textarea {
+  width: 100%;
+  height: 4em;
+  resize: none;
+}
+
+.button {
+  width: 100%;
+  height: 3em;
+  font-size: 0.8em;
+  color: white;
+  background-color: rgb(12, 125, 105);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+div {
+  width: 100%;
+}
+
+.inputForm,
+.radioButton {
+  width: 100%;
+  height: 2em;
+  border: 1px solid rgb(173, 179, 178);
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 4em;
+  border: 1px solid rgb(173, 179, 178);
+  border-radius: 5px;
+}
+
+.footer {
+  margin-top: 1.5em;
+}
