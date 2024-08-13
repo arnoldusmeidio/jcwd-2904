@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .inner-hero-menu {
+    color: black;
+    @apply flex items-end p-8 text-lg font-semibold;
+  }
+}
